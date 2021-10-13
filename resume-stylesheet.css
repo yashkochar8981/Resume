@@ -1,0 +1,297 @@
+body{
+  margin:0px;
+  font-family: sans-serif;
+}
+
+#main{
+  background-image:url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+}
+.each-section{
+  height:60vh;
+  /* border:1px solid black; */
+  padding: 15px;
+}
+
+.each-section-extended{
+  height:120vh;
+  /* border:1px solid black; */
+  padding: 25px;
+}
+
+.each-section-extended>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section:nth-child(2n){
+  background-color: #f0f0f0;
+}
+
+.each-section>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.horizontal-list li{
+  display: inline-flex;
+  margin-right: 25px;
+}
+
+.nav-bar a{
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: 70px;
+  text-decoration: none;
+}
+
+.nav-bar a:hover{
+  text-decoration: underline;
+  text-shadow: 3px solid white;
+}
+
+.my-name h1{
+  color:white;
+  font-size: 1.9rem;
+  font-weight: bolder;
+}
+
+.social-media i{
+  color:white;
+}
+
+#my-image img{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  z-index: 2;
+  /* margin-top: 55vh; */
+}
+
+#intro{
+  /* width: 80vw;
+  height: 30vh;
+  display: flex;
+  border: 1px solid black; */
+  margin-top: 20vh;
+}
+
+#intro p{
+  font-size: 1.6rem;
+}
+
+.title p{
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 20px;
+  /* margin-bottom: 40px; */
+}
+
+#skills-progress{
+  width: 80vw;
+  height: auto;
+  /* border: 1px solid black; */
+  margin-left: 8vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill{
+  height:1.4rem;
+  width: 12rem;
+  border:1px solid black;
+  border-radius: 20px;
+  margin: 30px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #f0efeb;
+}
+
+.skill span{
+  margin-left: 10px;
+  color:white;
+  font-weight: bold;
+  display: flex;
+}
+
+.sixty{
+  display: flex;
+  justify-content: flex-start;
+  height:inherit;
+  width: 60%;
+  background-color: #6a040f;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.sixty-five{
+  display: flex;
+  justify-content: flex-start;
+  height:inherit;
+  width: 65%;
+  background-color: #fca311;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.seventy{
+  display: flex;
+  justify-content: flex-start;
+  height:inherit;
+  width: 70%;
+  background-color: #2d6a4f;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.seventy-five{
+  display: flex;
+  justify-content: flex-start;
+  height:inherit;
+  width: 75%;
+  background-color: #118ab2;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.eighty{
+  display: flex;
+  justify-content: flex-start;
+  height:inherit;
+  width: 80%;
+  background-color: #003049;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.eighty-five{
+  display: flex;
+  justify-content: flex-start;
+  height:inherit;
+  width: 85%;
+  background-color: #d00000;
+  border-radius: 20px 0px 0px 20px;
+}
+.portfolio{
+
+}
+.project{
+  height:15rem;
+  width: 10rem;
+  border:1px solid black;
+  display: flex;
+  margin: 20px 100px;
+
+
+  /* flex-wrap: wrap; */
+}
+
+.outer{
+  position: relative;
+}
+.outer img{
+  height: 15rem;
+  width: 10rem;
+}
+
+.inner{
+  position: absolute;
+}
+
+.outer:hover{
+  opacity: 0.2;
+}
+
+.container{
+  width:90%;
+  /* border:1px solid black; */
+  margin-left: 5%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height:120vh;
+  /* position: relative; */
+}
+
+.box{
+  width:30vw;
+  height: 30vh;
+  border:1px solid black;
+  position: relative;
+
+}
+
+.box:nth-child(2n){
+  margin-left: 45vw;
+  margin-top: -10vh;
+}
+
+.box:nth-child(2n+1){
+  margin-left: -45vw;
+}
+
+.divider{
+  position: absolute;
+  width:0px;
+  height: 80%;
+  border: 1px solid grey;
+  /* margin-top: -90vh; */
+}
+
+.marker{
+  position: sticky;
+  top:60px;
+  /* margin-top:-90vh; */
+}
+
+.marker i{
+  image-orientation: 90deg;
+}
+
+#Contact{
+  background: linear-gradient(to right ,#1e6091,#7400b8);
+
+}
+
+.message{
+  /* display: flex; */
+  height:inherit;
+  width:40%;
+  border:1px solid white;
+  margin-right: 100px;
+}
+
+.address{
+  /* display: flex; */
+  height: inherit;
+  width:40%;
+  border:1px solid white;
+}
+
+.contact-outer{
+  margin:10px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction:row;
+  width:90%;
+  height:80%;
+  justify-content: space-between;
+  border:1px solid white;
+}
+
+input{
+  display: block;
+  width:70%;
+  height:20%;
+  margin:20px;
+  background-color: transparent;
+  border:0px solid;
+  border-bottom: 1px solid lightgrey;
+}
+
+input #message-box{
+  height:40%;
+}
